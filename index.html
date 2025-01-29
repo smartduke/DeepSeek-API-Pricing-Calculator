@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek API Pricing Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>DeepSeek API Cost Calculator</h1>
+        
+        <div class="calculator">
+            <div class="model-group">
+                <h2>Chat Models</h2>
+                <div class="input-group">
+                    <label>DeepSeek-Pro Input Tokens:</label>
+                    <input type="number" id="pro-input" placeholder="0">
+                    <span class="rate">@ $0.002 per 1k tokens</span>
+                </div>
+                <div class="input-group">
+                    <label>DeepSeek-Pro Output Tokens:</label>
+                    <input type="number" id="pro-output" placeholder="0">
+                    <span class="rate">@ $0.004 per 1k tokens</span>
+                </div>
+                <div class="input-group">
+                    <label>DeepSeek-Lite Tokens:</label>
+                    <input type="number" id="lite" placeholder="0">
+                    <span class="rate">@ $0.001 per 1k tokens</span>
+                </div>
+            </div>
+
+            <div class="model-group">
+                <h2>Embeddings</h2>
+                <div class="input-group">
+                    <label>Embeddings Tokens:</label>
+                    <input type="number" id="embeddings" placeholder="0">
+                    <span class="rate">@ $0.0001 per 1k tokens</span>
+                </div>
+            </div>
+
+            <div class="results">
+                <h3>Cost Breakdown</h3>
+                <div class="total-cost">
+                    <span>Total Estimated Cost:</span>
+                    <strong id="total">$0.00</strong>
+                </div>
+                <div class="breakdown">
+                    <p id="pro-input-cost">Pro Input: $0.00</p>
+                    <p id="pro-output-cost">Pro Output: $0.00</p>
+                    <p id="lite-cost">Lite: $0.00</p>
+                    <p id="embeddings-cost">Embeddings: $0.00</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="disclaimer">
+            <p>Note: Calculator uses current DeepSeek pricing as of July 2024. Always verify rates with official documentation.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

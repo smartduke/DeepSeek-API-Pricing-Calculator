@@ -2,6 +2,8 @@
 
 A responsive, interactive calculator for estimating costs when using DeepSeek's AI APIs.
 
+<img width="613" alt="cal" src="https://github.com/user-attachments/assets/d0a14180-ce3c-422d-b7a4-326290065cf3" />
+
 ## Features
 
 - Real-time cost calculations

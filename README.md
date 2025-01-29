@@ -1,4 +1,4 @@
-# DeepSeek API Pricing Calculator
+`# DeepSeek API Pricing Calculator
 
 A responsive, interactive calculator for estimating costs when using DeepSeek's AI APIs.
 
@@ -14,22 +14,22 @@ A responsive, interactive calculator for estimating costs when using DeepSeek's 
 ## Setup
 
 1. Clone repository:
-
+```bash
 git clone https://github.com/smartduke/DeepSeek-API-Pricing-Calculator.git
-
+```
 2. Open index.html in any modern browser
 
 ## Customization
 
 1. Update pricing rates in js/script.js:
-
+```bash
 const DEEPSEEK_RATES = {
     proInput: 0.002,    // Update these values
     proOutput: 0.004,
     lite: 0.001,
     embeddings: 0.0001
 };
-
+```
 3. Modify styles in css/style.css
 
 4. Add new models in the HTML and JavaScript files

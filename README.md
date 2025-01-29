@@ -2,8 +2,6 @@
 
 A responsive, interactive calculator for estimating costs when using DeepSeek's AI APIs.
 
-![Calculator Screenshot](screenshot.png)
-
 ## Features
 
 - Real-time cost calculations
@@ -41,7 +39,7 @@ const DEEPSEEK_RATES = {
 ```text
 MIT License
 
-Copyright (c) 2024 Your Name
+Copyright (c) 2025 SmartDuke Technologies
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

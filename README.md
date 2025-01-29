@@ -18,6 +18,7 @@ A responsive, interactive calculator for estimating costs when using DeepSeek's 
 1. Clone repository:
 ```bash
 git clone https://github.com/yourusername/deepseek-pricing-calculator.git
+```bash
 
 2. Open index.html in any modern browser
 
